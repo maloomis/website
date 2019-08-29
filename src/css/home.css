@@ -1,0 +1,91 @@
+.padbot_45 {
+    padding-bottom: 45px;
+}
+
+.padding_30 {
+    padding-top: 30px;
+}
+
+section {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+section:last-child {
+    border: 0;
+}
+
+.section-title {
+    position: relative;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.section-title span {
+    position: absolute;
+    height: 7px;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.4;
+    left: 0;
+    background-color: #7D12FF !important;
+}
+
+.top_30 {
+    margin-top: 30px;
+}
+
+p {
+    font-size: 13px;
+    color: #4c4c4c;
+    line-height: 24px;
+}
+
+.bottom_45 {
+    margin-bottom: 45px;
+}
+
+.section-title h1, .section-title h2, .section-title h3, .section-title h4, .section-title h5 {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+
+.skill-list li {
+    list-style: none;
+}
+
+.skill-list h3 {
+    font-size: 12px;
+}
+
+.skill-list .progress {
+    margin: 10px 0 20px;
+    display: block;
+    height: 5px;
+    position: relative;
+    width: 100%;
+    overflow: visible;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background: #dfdfdf;
+    box-shadow: 0;
+}
+
+header nav a.home-btn, .estate figure .imgout .price, .site-btn, .timeline li:first-child i, nav ul li a:after, .owl-theme .owl-controls .owl-page span, .skill-list .progress .percentage, ul.profile-information li:first-child:before {
+    background: #b19cd9 !important;
+}
+
+.skill-list .progress .percentage {
+    border-radius: 50px 0 0 50px;
+    -moz-border-radius: 50px 0 0 50px;
+    -webkit-border-radius: 50px 0 0 50px;
+    -ms-border-radius: 50px 0 0 50px;
+    -o-border-radius: 50px 0 0 50px;
+    bottom: 0;
+    position: absolute;
+    top: 0;
+}

@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+//components
+import Navigation from './components/navigation';
+import Home from './components/panels/home';
+import Profile from './components/panels/profile';
+import Resume from './components/panels/resume';
+import Blog from './components/panels/blog';
+import PostGirlsWhoCode from './components/blogPosts/post_girlswhocode'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="top_60 container">
+      <div className="row">
+        <div className="col-lg-3 col-md-5">
+          <Profile />
+        </div>
+
+        <div id="ajax-tab-container" className="col-lg-9 col-md-7 tab-container"
+        data-easytabs="true">
+          <Navigation />
+            <div id="content" className="panel-container bottom_30">
+              <Router>
+                <Route path="/" exact component={Home} />
+                <Route path="/resume" component={Resume} />
+                <Route path="/blog" component={Blog} />
+                <Route path="/post_girlswhocode" component={PostGirlsWhoCode} />
+              </Router>
+            </div>
+        </div>
+      </div>
     </div>
   );
 }
