@@ -1,10 +1,45 @@
 import React from 'react';
 import '../../css/blog_post.css';
+import Gallery from 'react-photo-gallery';
 import girlswhocode_img from '../../img/girlswhocode.jpg';
+
+import girlswhocode1_img from '../../img/girlswhocode_1.JPG';
+import girlswhocode2_img from '../../img/girlswhocode_2.JPG';
+import girlswhocode3_img from '../../img/girlswhocode_3.JPG';
+import girlswhocode4_img from '../../img/girlswhocode_4.JPG';
+import girlswhocode5_img from '../../img/girlswhocode_5.JPG';
 
 
 class PostGirlsWhoCode extends React.Component {
   render() {
+    /*Photos for gallery*/
+    const photos = [
+      {
+        src: girlswhocode1_img,
+        width: 4,
+        height: 3
+      },
+      {
+        src: girlswhocode2_img,
+        width: 4,
+        height: 3
+      },
+      {
+        src: girlswhocode3_img,
+        width: 3,
+        height: 2
+      },
+      {
+        src: girlswhocode4_img,
+        width: 3,
+        height: 2
+      },
+      {
+        src: girlswhocode5_img,
+        width: 3,
+        height: 2
+      }
+    ]
     return  <div className="post">
               <div className="blog-image">
                 <img src={girlswhocode_img} alt="test" />
@@ -42,6 +77,8 @@ class PostGirlsWhoCode extends React.Component {
                   working with computers. Hopefully, this is an indication that the gender gap in software engineering will become smaller with
                   each new generation.
                 </p>
+
+                <Gallery photos={photos} />
                 <div className="top_15 bottom_30">
                   <a className="site-btn btn" href="/blog">
                     Back to Blog
