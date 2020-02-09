@@ -9,6 +9,7 @@ import Profile from './components/panels/profile';
 import Resume from './components/panels/resume';
 import Blog from './components/panels/blog';
 import PostGirlsWhoCode from './components/blogPosts/post_girlswhocode'
+import Projects from './components/panels/projects';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <Router>
                 <Route path="/" exact component={Home} />
                 <Route path="/resume" component={Resume} />
+                <Route path="/projects" component={Projects} />
                 <Route path="/blog" component={Blog} />
                 <Route path="/post_girlswhocode" component={PostGirlsWhoCode} />
               </Router>

@@ -15,6 +15,7 @@ class Navigation extends React.Component {
                   <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                       <Nav.Link href="/resume">Resume</Nav.Link>
+                      <Nav.Link href="/projects">Projects</Nav.Link>
                       <Nav.Link href="/blog">Blog</Nav.Link>
                       <Nav.Link href="https://github.com/maloomis">GitHub</Nav.Link>
                     </Nav>
