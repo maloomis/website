@@ -6,7 +6,12 @@ class Projects extends React.Component {
     const projects = [{
                     link: 'https://github.com/maloomis/budgetapp',
                     title: "Javascript Practice - Budget App"
-                  }]
+                  },
+                  {
+                    link: 'https://github.com/maloomis/recipeapp',
+                    title: "Javascript Practice - Recipe App"
+                  }
+                  ]
     return  <div className="col-md-12 bottom_30">
               <div className="col-md-12 content-header">
                 <div className="section-title top_30 bottom_15">
@@ -15,11 +20,11 @@ class Projects extends React.Component {
                 </div>
                 <div>
                 {projects.map((value) => {
-                    return  <a key={value} href={value.link} className="blog-box">
+                    return  <p><a key={value} href={value.link} className="blog-box">
                               <div className="blog-info">
                                 <h2 className="title">{value.title}</h2>
                               </div>
-                            </a>
+                            </a></p> 
                 })}
                 </ div>
                 </div>
