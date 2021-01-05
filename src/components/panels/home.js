@@ -43,16 +43,10 @@ class Home extends React.Component {
                     <h2>About Me </h2>
                   </div>
                   <p className="top_30">
-                    I am originally from the east coast right outside of Boston. However, I now
-                    live in San Francisco where I work as an Application Developer at Workday. I peaked an
-                    interest in computer science my senior year of high school when I took a basic web development class.
-                    I went on to pursue a Bachelor's Degree in Information Science at Northeastern University. During
-                    my time there, I had several internships including a project management role at Boston Private Bank,
-                    a web dev role at Collette (a travel tour company), and finally as an app developer at Workday, where I
-                    decided to continue full time.
+                    I peaked an interest in computer science my senior year of high school when I took a basic web development class. Since then my love for the field grew, and I went on to pursue a Bachelor's Degree in Information Science at Northeastern University. During my time there, I had several internships including a project management role at Boston Private Bank, a web development role at Collette, and finally as an application developer at Workday, where I decided to continue full time. Through all my experiences, one fact has held true. I love technology and the power it gives you to solve real world problems. I feel fulfilled knowing that in the technical industry, there is always something new to learn and someone to help.
                   </p>
                   <p className="top_30">
-                    Outside of work, I like to travel to new places, spend time outdoors either hiking or skiing, and
+                    Outside of work, I like to travel to new places, spend time outdoors (either hiking or skiing), and
                     try different exercise classes. I love exploring new parts of the Bay Area since I spent majority
                     of my life in New England. Additionally, I really enjoy traveling abroad. I spent a month
                     in Bali after graudtion where I was teaching English to local students.
@@ -60,7 +54,7 @@ class Home extends React.Component {
                   <p className="top_30">
                     One of my passions is working with young girls and encouraging them to pursue STEM careers. I've
                     helped organize a Girls Who Code summit day where we hosted the Monterey Girls Who Code chapter for the day. We
-                    had several women in tech talk to the girls about why the chose to work in tech and what they like about it.
+                    had several women in tech talk to the girls about why they chose to work in tech and what they like about it.
                     Additionally, we had them participate in a robotics workshop. I like serving as a mentor for young girls because
                     it was female mentors who inspired me to stay in the field when I faced different challenges and doubted my abilities.
                   </p>

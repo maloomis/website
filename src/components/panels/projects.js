@@ -10,6 +10,10 @@ class Projects extends React.Component {
                   {
                     link: 'https://github.com/maloomis/recipeapp',
                     title: "Javascript Practice - Recipe App"
+                  },
+                  {
+                    link: 'https://github.com/maloomis/planningApp',
+                    title: "React Practice - Planning App"
                   }
                   ]
     return  <div className="col-md-12 bottom_30">
