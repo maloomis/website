@@ -23,7 +23,7 @@ class Resume extends React.Component {
                         <h3 className="line-title">Application Developer - Workday</h3>
                         <span>August 2018 - Present</span>
                         <p className="little-text">
-                          Worked closely with other developers, quality assurance engineers, product managers, and automators to complete several projects on the Time Tracking Application using Agile methodology;
+                          Worked closely with other developers, quality assurance engineers, product managers, and automators to complete several projects on the Time Tracking Application using Agile methodology (e.g. reporting enhancements and API creation);
                           Served as Web Services advocate for the team; Triaged customer blockers
                         </p>
                       </li>
